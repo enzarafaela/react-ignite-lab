@@ -1,5 +1,4 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Children } from 'react'
 import { Text, TextProps } from './Text'
 
 export default {
@@ -46,7 +45,7 @@ export const CustomComponent: StoryObj<TextProps> = {
     asChild: {
       table: {
         disable: true,
-      },
-    },
-  },
-};
+      }
+    }
+  }
+}
